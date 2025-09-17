@@ -15,32 +15,32 @@ A Flutter project for **user management** (Login, Register, Home, Edit User) men
 ---
 
 ## 📂 Struktur Project
+## 📂 Struktur Project
+
 lib/
-│
 ├── edit/
-│ └── edit_screen.dart # Halaman edit user
+│   └── edit_screen.dart        # Halaman edit user
 │
 ├── home/
-│ ├── home_controller.dart # Controller untuk user list (GetX)
-│ └── home_screen.dart # Halaman utama (list user)
+│   ├── home_controller.dart    # Controller untuk user list (GetX)
+│   └── home_screen.dart        # Halaman utama (list user)
 │
 ├── login/
-│ ├── login_controller.dart # Controller login (GetX)
-│ ├── login_screen.dart # Halaman login
-│ └── register_screen.dart # Halaman registrasi
+│   ├── login_controller.dart   # Controller login (GetX)
+│   ├── login_screen.dart       # Halaman login
+│   └── register_screen.dart    # Halaman registrasi
 │
 ├── model/
-│ └── ... # Model data (jika ada)
+│   └── ...                     # Model data (jika ada)
 │
 ├── service/
-│ └── service.dart # Service HTTP request ke backend
+│   └── service.dart            # Service HTTP request ke backend
 │
 ├── widget/
-│ ├── error_message.dart # Widget custom error message
-│ └── text_input_login.dart # Widget custom input text
+│   ├── error_message.dart      # Widget custom error message
+│   └── text_input_login.dart   # Widget custom input text
 │
-└── main.dart # Entry point aplikasi
-
+└── main.dart                   # Entry point aplikasi
 
 
 ## 🛠️ Fitur Utama
@@ -59,6 +59,7 @@ lib/
    git clone <repo-url>
    cd azhattest
 
-API Token Forbidden
-Jika saat request ke backend muncul error:
+## API Token Forbidden
+kendala tesst token forbiden sehingga tidak bisa rest api untuk menagatasnya membuat data damy
+
 
