@@ -16,7 +16,7 @@ A Flutter project for **user management** (Login, Register, Home, Edit User) men
 
 ## 📂 Struktur Project
 ## 📂 Struktur Project
-
+```bash
 lib/
 ├── edit/
 │   └── edit_screen.dart        # Halaman edit user
@@ -41,7 +41,7 @@ lib/
 │   └── text_input_login.dart   # Widget custom input text
 │
 └── main.dart                   # Entry point aplikasi
-
+'''
 
 ## 🛠️ Fitur Utama
 - **Login & Register** user.
@@ -61,5 +61,6 @@ lib/
 
 ## API Token Forbidden
 kendala tesst token forbiden sehingga tidak bisa rest api untuk menagatasnya membuat data damy
+
 
 
